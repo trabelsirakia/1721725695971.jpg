@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .main-images {
+            display: flex;
+            gap: 1px;
+            margin-bottom: 40px;
+        }
+        .text-area-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .text-area-container h6 {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .text-area-container h3 {
+            font-size: 18px;
+            font-weight: normal;
+            margin: 5px 0;
+        }
+        .images-row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+        .additional-text {
+            text-align: center;
+            margin-top: 10px;
+            padding: 0 35%;
+            box-sizing: border-box;
+        }
+        .highlight-bar {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 20px 0;
+        }
+        .image-right-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .image-right-container img {
+            max-width: 50%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-images">
+            <img src="1.png" alt="Une belle photo de paysage" width="1000" height="600">
+            <div>
+                <img src="images.png" alt="Image supplémentaire" width="400" height="200">
+                <div class="text-area-container">
+                    <h6>CARACTERISTIQUES</h6>
+                    <h3>Etat: Neuf</h3>
+                    <h3>Longueur : 17.55m</h3>
+                    <h3>Largeur : 4.65m</h3>
+                    <h3>Capacité : null pers</h3>
+                    <h3>Moteur : Volvo Penta</h3>
+                    <h3>Puissance : 1000</h3>
+                    <h3>Énergie : diesel</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="images-row">
+            <img src="2.avif" alt="Deuxième image" width="400" height="200">
+            <img src="3.jpg" alt="Troisième image" width="400" height="200">
+            <img src="4.jpg" alt="Quatrième image" width="400" height="200">
+        </div>
+
+        <div class="highlight-bar">
+            <p>Voici un aperçu de nos dernières nouveautés.</p>
+        </div>
+
+        <div class="additional-text">
+            <p>Pour plus d'informations, n'hésitez pas à nous contacter.</p>
+        </div>
+
+        <div class="image-right-container">
+            <img src="5.jpeg" alt="Image supplémentaire" width="300" height="300">
+        </div>
+    </div>
+</body>
+</html>
